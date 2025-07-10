@@ -1,0 +1,94 @@
+.App {
+  font-family: sans-serif;
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.profile-card {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  width: 200px;
+  margin: 1rem auto;
+}
+.profile-card img {
+  border-radius: 50%;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.dynamic-button {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.dynamic-button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.feature-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.progress-bar {
+  background: #eee;
+  height: 25px;
+  width: 100%;
+  position: relative;
+  border-radius: 4px;
+  margin: 1rem 0;
+}
+.progress-filled {
+  background: #4caf50;
+  height: 100%;
+  transition: width 0.3s ease;
+}
+.progress-bar span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  line-height: 25px;
+}
+
+.user-list {
+  list-style: none;
+  padding-left: 0;
+}
+.user-list li {
+  margin: 0.5rem 0;
+}
+.status-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-left: 0.5rem;
+}
+
+.recipe-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.content-section {
+  margin: 2rem 0;
+}
+
+.item-list {
+  list-style-type: square;
+  padding-left: 1.5rem;
+}
