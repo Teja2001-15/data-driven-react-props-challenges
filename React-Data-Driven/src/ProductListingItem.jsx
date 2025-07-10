@@ -6,7 +6,7 @@ const ProductListingItem = ({ product }) => {
         <div className="product-card">
             <h3>{name}</h3>
             <p>${price.toFixed(2)}</p>
-            <p>{inStock ? "In Stock ✅" : "Out of Stock ❌"}</p>
+            <p>{inStock ? "In Stock" : "Out of Stock "}</p>
         </div>
     );
 };
